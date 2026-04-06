@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Martina Gallardo</title>
+
+  <style>
+    :root {
+      --color-primario: #6c63ff;
+      --color-secundario: #4a47a3;
+      --color-fondo: #f5f7ff;
+      --color-texto: #333;
+      --color-blanco: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--color-fondo);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      background: var(--color-blanco);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+      color: white;
+      padding: 25px;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+    }
+
+    .sidebar h3 {
+      margin-top: 25px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    .main {
+      padding: 25px;
+      color: var(--color-texto);
+    }
+
+    h1 {
+      color: var(--color-primario);
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      color: var(--color-secundario);
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .info {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--color-primario);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 8px;
+      margin: 3px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h2>Martina Gallardo</h2>
+
+    <p class="info">📍 Argentina</p>
+    <p class="info">📧 martina.gallardo@email.com</p>
+    <p class="info">📱 11-0000-0000</p>
+
+    <h3>Habilidades</h3>
+    <div>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Programación</span>
+      <span class="tag">Word</span>
+      <span class="tag">Excel</span>
+      <span class="tag">Trabajo en equipo</span>
+    </div>
+
+    <h3>Idiomas</h3>
+    <ul>
+      <li>Español (Nativo)</li>
+      <li>Inglés (Básico/Intermedio)</li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1>Curriculum Vitae</h1>
+
+    <h3>Perfil</h3>
+    <p>
+      Estudiante de informática de 16 años con gran interés en la tecnología,
+      desarrollo web y aprendizaje constante. Responsable y con iniciativa.
+    </p>
+
+    <h3>Educación</h3>
+    <p>
+      <strong>Escuela Secundaria</strong><br>
+      Orientación: Informática<br>
+      Año en curso
+    </p>
+
+    <h3>Cursos</h3>
+    <ul>
+      <li>Introducción a la Programación</li>
+      <li>Taller de informática</li>
+    </ul>
+
+    <h3>Objetivo</h3>
+    <p>
+      Busco mi primera experiencia laboral para desarrollar mis habilidades
+      tecnológicas y seguir creciendo profesionalmente.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
